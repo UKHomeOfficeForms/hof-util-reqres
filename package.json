@@ -1,0 +1,27 @@
+{
+  "name": "hof-util-reqres",
+  "version": "1.0.0",
+  "description": "Test helper to create dummy request/response objects for testing middleware methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UKHomeOfficeForms/hof-util-reqres.git"
+  },
+  "author": "UKHomeOffice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UKHomeOfficeForms/hof-util-reqres/issues"
+  },
+  "homepage": "https://github.com/UKHomeOfficeForms/hof-util-reqres#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-homeoffice": "^2.1.2"
+  },
+  "dependencies": {
+    "hof-model": "^3.0.0",
+    "reqres": "^1.2.2"
+  }
+}
