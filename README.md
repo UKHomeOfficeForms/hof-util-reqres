@@ -17,8 +17,8 @@ it('provides a translate property on the request', () => {
   expect(req.translate).to.be.a('function');
 });
 
-it('provides a form property on the request with values', () => {
-  expect(req.form).to.eql({ values: {} });
+it('provides a form property on the request with values and options', () => {
+  expect(req.form).to.eql({ values: {}, options: {} });
 });
 ```
 
